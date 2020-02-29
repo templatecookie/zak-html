@@ -1,0 +1,732 @@
+/* ===== Browser Reset ===== */
+*
+ margin: 0px
+ padding: 0px
+ outline: 0px
+
+a,
+a:hover,
+a:focus
+ text-decoration: none
+ color: #000
+ outline: 0px
+img 
+ border: 0px
+
+ol, ul
+ list-style: none
+
+.clr
+ clear: both
+h1,h2,h3,h4,h5,h6, p
+ margin: 0px
+
+body
+ font-size: 14px
+ line-height: 24px
+ font-family: 'Josefin Sans', sans-serif
+
+a
+ transition: all .5s ease-in-out
+ -webkit-transition: all .5s ease-in-out
+ -moz-transition: all .5s ease-in-out
+ -ms-transition: all .5s ease-in-out
+ -o-transition: all .5s ease-in-out
+
+$font1: 'Saira', sans-serif
+
+
+
+$c1: #0B92CE
+$c2: #FF7F46
+$c3: #ff6520
+
+.sctbp
+ padding: 100px 0px 105px
+
+.bnr_socl a i,
+.navbar-brand,
+.port_overlay,
+.ser_one,
+.ser_one i,
+.sticky
+ transition: all .5s ease-in-out
+ -webkit-transition: all .5s ease-in-out
+ -moz-transition: all .5s ease-in-out
+ -ms-transition: all .5s ease-in-out
+ -o-transition: all .5s ease-in-out
+
+.abt_social.bnr_socl a:focus i
+ outline: 0px
+
+/* ================================== Home Page Style Start From Here ================================== */
+
+.full_header 
+ background-color: #0b92ce
+
+.sticky
+ position: fixed
+ z-index: 9999
+ width: 100%
+ top: 0
+ left: 0
+ .navbar-brand
+  padding: 12px 15px
+ .main_nav
+  .navbar-nav
+   li
+    a
+     padding: 15px 30px
+
+.navbar-toggle
+ padding: 10px 10px
+ margin-top: 8px
+ margin-right: 5px
+ margin-bottom: 8px
+ border: 1px solid transparent
+ border-radius: 2px
+ color: #fff
+.navbar-default .navbar-toggle .icon-bar
+ background-color: #fff
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover
+ color: #444 !important
+ background-color: transparent
+.navbar-default .navbar-toggle:focus .icon-bar, .navbar-default .navbar-toggle:hover .icon-bar
+ background-color: #000
+    
+.navbar-default
+ background-color: rgba(248, 248, 248, 0)
+ border-color: rgba(231, 231, 231, 0.76)
+
+.navbar
+ margin-bottom: 0px
+ border: 0px solid rgba(255, 156, 156, 0)
+
+.navbar-brand 
+ padding: 17px 20px
+ font-size: 20px
+ text-transform: uppercase
+ font-weight: 600
+ font-family: $font1
+
+.navbar-default .navbar-brand a
+ color: #fff
+
+.main_nav .navbar-nav>li>a
+ padding: 20px 40px
+ color: #fff
+ text-transform: uppercase
+ font-weight: 600
+ font-family: $font1
+ position: relative
+
+.main_nav .navbar-nav>li>a::after
+ content: ''
+ position: absolute
+ height: 80%
+ width: 1px
+ background-color: #4da4cb
+ top: 50%
+ left: 100%
+ transform: translateY(-50%)
+
+.main_nav .navbar-nav>li:last-child a:after
+ background-color: transparent
+
+.navbar-default .navbar-nav>li.active>a,
+.navbar-default .navbar-nav>li.active>a:focus,
+ color: #fff
+ background-color: #ff7f46
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover 
+ color: #fff
+ background-color: #ff7f46
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover 
+ color: #000
+ background-color: transparent
+
+/* ================ Banner Part ================ */
+
+.bnr_one
+ background: linear-gradient(to right, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(../img/banner.jpg) center no-repeat
+
+.bnr
+ background-size: cover
+
+.bnr_inr
+ padding: 220px 0px
+ color: #fff
+ h1
+  font-size: 45px
+  font-family: $font1
+  margin-bottom: 12px
+  span
+   font-weight: 700
+ p
+  font-size: 25px
+
+.bnr_socl
+ margin: 40px 0px 0px
+ a
+  display: inline-block
+  margin: 3px
+  i
+   font-size: 14px
+   color: #fff
+   height: 35px
+   width: 35px
+   line-height: 35px
+   text-align: center
+   border: 1px solid #fff
+ 
+.bnr_socl a:hover i
+ background-color: $c3
+ border-color: $c3
+
+/* ================ About Part ================ */
+
+.about
+
+.headline
+ margin-bottom: 50px
+ h2
+  font-size: 40px
+  font-family: $font1
+  font-weight: 700
+  text-transform: uppercase
+ p
+  font-size: 16px
+
+.abt_lft 
+ border-radius: 5px
+ width: 90%
+
+.abt_rgt
+ width: 100%
+ margin-top: 50px
+ h3
+  font-size: 35px
+  font-family: $font1
+  font-weight: 600
+  margin-bottom: 5px
+ h5
+  font-size: 16px
+  font-weight: 400
+  color: $c1
+ .abtr_txt
+  margin-top: 30px
+  p
+   font-weight: 400
+   font-size: 16px
+   margin-bottom: 10px
+ .abt_social
+  margin: 30px 0px
+  a i
+   color: #000
+   border: 1px solid #444
+ .abt_social.bnr_socl a:hover i
+  border-color: $c2
+  color: #fff 
+ .abt_btn
+  margin: 40px 0px 0px
+ .scbtn a
+  display: inline-block
+  padding: 10px 30px
+  border-radius: 3px
+  border: 1px solid #444
+  font-size: 14px
+  font-family: $font1
+  margin-right: 5px
+  margin-bottom: 5px
+ .scbtn a:hover
+  background-color: $c2
+  color: #fff
+  border-color: $c2
+
+
+
+/* ================ Skill Part ================ */
+
+.skill
+ background-color: #f9f9f9
+
+.skill_one
+ margin: 30px 0px
+ .circle1
+  position: relative
+  p
+   position: absolute
+   top: 50%
+   left: 50%
+   transform: translate(-50%,-50%)
+   font-family: $font1
+   font-size: 18px
+   font-weight: 800
+ h3
+  font-size: 20px
+  text-transform: uppercase
+  margin-top: 15px
+  font-weight: 800
+  font-family: $font1
+
+/* ================ Service Part ================ */
+.service
+
+.ser_row
+ ul
+  li
+   width: 25%
+   float: left
+   box-sizing: border-box
+   padding: 0px 20px
+   .ser_one
+    margin: 15px 0px
+    padding: 40px 10px
+    border: 1px solid #ddd
+    border-radius: 3px
+    min-height: 260px
+    i
+     font-size: 25px
+     color: #444
+     margin-bottom: 20px
+     height: 50px
+     width: 50px
+     line-height: 50px
+     border-radius: 50%
+     text-align: center
+     border: 1px solid #ddd
+    h4
+     font-size: 20px
+     text-transform: uppercase
+     font-family: $font1
+     font-weight: 600
+     color: #5a5a5a
+     margin-bottom: 15px
+    p
+     color: #222
+     font-size: 15px
+
+.ser_one:hover
+ box-shadow: 0px 0px 20px 5px #eee
+ i
+  background-color: #444
+  color: #fff !important
+
+
+/* ================ Portfolio Part ================ */
+
+.hireme
+ background: linear-gradient(to right, rgba(255, 255, 255, 0.8) 100%, rgba(255, 255, 255, .8) 100%), url(../img/hire_bg.jpg) center no-repeat
+ background-size: cover
+ background-attachment: fixed
+ .headline
+  margin-bottom: 0px
+  h2
+   font-weight: 400
+   margin-bottom: 10px
+   text-transform: capitalize
+  p
+   font-size: 18px
+   margin-bottom: 40px
+  a.scbtn
+   border: 1px solid #444
+   padding: 10px 40px
+   font-weight: 600
+   text-transform: uppercase
+.hireme .headline a:hover
+ background-color: $c2
+ color: #fff
+ border-color: $c2
+
+
+
+/* ================ Portfolio Part ================ */
+
+.portfolio
+
+.port_menu
+ margin: 20px 0px 30px
+ ul
+  display: block
+  margin-bottom: 0px
+  border-top: 1px solid #666
+  border-bottom: 1px solid #666
+  li
+   float: left
+   font-size: 14px
+   font-family: $font1
+   font-weight: 400
+   padding: 10px 20px
+   border-left: 1px solid #666
+   cursor: pointer
+
+.port_menu ul li:last-child
+ border-right: 1px solid #666
+
+.port_menu ul li.active,
+.port_menu ul li:hover
+ background-color: #444
+ color: #fff
+
+.port_one
+ position: relative
+ height: 170px
+ overflow: hidden
+ margin: 15px 0px
+ .port_overlay
+  position: absolute
+  top: 0
+  left: 0
+  background-color: rgba(0, 0, 0, 0.5)
+  width: 100%
+  height: 100%
+  color: #fff
+  padding: 30px 15px
+  opacity: 0
+  transform: scale(1.5)
+  h4
+   font-size: 18px
+   font-weight: 600
+   padding-top: 20px
+  a
+   display: inline-block
+   i
+    font-size: 16px
+    height: 35px
+    width: 35px
+    line-height: 35px
+    border-radius: 2px
+    text-align: center
+    border: 1px solid #eee
+    color: #fff
+    margin: 15px 2px
+
+.port_one:hover a i:hover
+ background-color: #000
+ border-color: #000
+ color: #fff
+.port_one:hover .port_overlay
+ opacity: 1
+ transform: scale(1)
+
+
+/* ================ Contact Part ================ */
+
+.contact 
+ background-color: #f9f9f9
+
+.con_left
+ .cfin
+  font-size: 16px
+  padding: 8px 15px
+  width: 100%
+  margin-bottom: 10px
+  border: 1px solid #ccc
+  color: #444
+ .msg
+  height: 180px
+  resize: none
+ a.cfin
+  margin-top: 10px
+  display: block
+  text-align: center
+  color: $c1
+  border-color: $c1
+  font-weight: 600
+.con_left a.cfin:hover
+ background-color: $c1
+ color: #fff
+ border-color: #fff
+.cfin:focus
+ border-color: #444
+ 
+
+.con_right
+ .crght_one
+  margin: 30px 0px
+  i
+   font-size: 20px
+   display: inline-block
+   margin-right: 20px
+  p
+   font-size: 18px
+   font-weight: 600
+   display: inline-block
+.con_right .bnr_socl a i
+ color: #444
+ border-color: #444
+.con_right .bnr_socl a i:hover 
+ border-color: $c2
+ color: #fff
+
+.con_right .cright_txt
+ margin-top: 0px
+ margin-bottom: 50px
+
+.footer
+ background-color: #444
+ padding: 40px 0px
+
+.footer_text
+ color: #fff
+ font-size: 18px
+//// Back To Top
+.btt
+ position: fixed
+ right: 15px
+ bottom: 15px
+ i
+  font-size: 16px
+  height: 40px
+  width: 40px 
+  line-height: 40px
+  text-align: center
+  border-radius: 2px 
+  border: 1px solid gray
+  color: #fff
+  background-color: #444
+  cursor: pointer
+//  box-shadow: 0px 0px 2px 1px #ddd
+ 
+//// Preloader
+
+
+.preloader
+ position: fixed
+ left: 0%
+ top: 0%
+ z-index: 999
+ height: 100%
+ width: 100%
+ background-color: #fff
+ overflow: visible
+
+.sk-folding-cube
+ top: 50%
+ left: 50%
+ width: 40px
+ height: 40px
+ position: relative
+ -webkit-transform: rotateZ(45deg)
+ transform: rotateZ(45deg) translate(-50%, -50%)
+
+.sk-folding-cube .sk-cube
+ float: left
+ width: 50%
+ height: 50%
+ position: relative
+ -webkit-transform: scale(1.1)
+ -ms-transform: scale(1.1)
+ transform: scale(1.1)
+
+.sk-folding-cube .sk-cube:before
+ content: ''
+ position: absolute
+ top: 0
+ left: 0
+ width: 100%
+ height: 100%
+ background-color: #333
+ -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both
+ animation: sk-foldCubeAngle 2.4s infinite linear both
+ -webkit-transform-origin: 100% 100%
+ -ms-transform-origin: 100% 100%
+ transform-origin: 100% 100%
+
+.sk-folding-cube .sk-cube2
+ -webkit-transform: scale(1.1) rotateZ(90deg)
+ transform: scale(1.1) rotateZ(90deg)
+.sk-folding-cube .sk-cube3 
+ -webkit-transform: scale(1.1) rotateZ(180deg)
+ transform: scale(1.1) rotateZ(180deg)
+
+.sk-folding-cube .sk-cube4 
+ -webkit-transform: scale(1.1) rotateZ(270deg)
+ transform: scale(1.1) rotateZ(270deg)
+
+.sk-folding-cube .sk-cube2:before
+ -webkit-animation-delay: 0.3s
+ animation-delay: 0.3s
+
+.sk-folding-cube .sk-cube3:before
+ -webkit-animation-delay: 0.6s
+ animation-delay: 0.6s
+.sk-folding-cube .sk-cube4:before    
+ -webkit-animation-delay: 0.9s
+ animation-delay: 0.9s
+
+@keyframes sk-foldCubeAngle 
+ 0%, 10% 
+  -webkit-transform: perspective(140px) rotateX(-180deg)
+  transform: perspective(140px) rotateX(-180deg)
+  opacity: 0
+ 25%, 75% 
+  -webkit-transform: perspective(140px) rotateX(0deg)
+  transform: perspective(140px) rotateX(0deg)
+  opacity: 1
+ 90%, 100%
+  -webkit-transform: perspective(140px) rotateY(180deg)
+  transform: perspective(140px) rotateY(180deg)
+  opacity: 0
+
+
+
+/* =============================        Media Quaries Style     ============================= */
+
+@media(min-width:320px) and (max-width:360px)
+ .bnr_inr h1
+  font-size: 30px
+ .ser_row ul li
+  width: 100%
+ .bnr_inr h1
+  font-size: 30px
+ .con_right .crght_one p
+  font-size: 14px
+  font-weight: 600
+  display: inline-block
+
+
+@media screen and (max-width: 480px)
+ .main_nav .navbar-nav > li > a
+  padding: 10px 15px
+ .sticky .main_nav .navbar-nav li a
+  padding: 10px 15px
+
+ .navbar-brand, .sticky .navbar-brand
+  padding: 17px 10px
+ .bnr_inr
+  padding: 100px 0px
+  color: #fff
+ .bnr_inr h1
+  font-size: 35px
+ .bnr_inr p
+  font-size: 20px
+ .bnr_socl
+  margin: 25px 0px 0px
+ .bnr_socl a i
+  height: 30px
+  width: 30px
+  line-height: 30px
+
+ .sctbp
+  padding: 50px 0px 55px
+ .abt_rgt .abt_btn
+  margin: 25px 0px 0px
+ .headline
+  margin-bottom: 20px 
+ .headline h2
+  font-size: 32px
+ .abt_rgt .scbtn a
+  padding: 8px 25px
+  border-radius: 3px
+  margin-right: 5px
+  margin-bottom: 3px
+ .abt_rgt .abt_btn
+  margin: 25px 0px 0px
+
+ .ser_row ul li
+  width: 50%
+  padding: 0px 10px
+ .port_menu ul li
+  font-size: 14px
+  padding: 7px 13px
+  border-left: 1px solid #ccc
+
+ .con_right .crght_one
+  margin: 10px 0px
+ .con_right .cright_txt
+  margin-top: 30px 
+  margin-bottom: 30px
+
+
+
+@media(min-width:768px) and (max-width:991px)
+ .main_nav .navbar-nav > li > a
+  padding: 20px 15px
+  font-size: 14px
+ .navbar-brand
+  padding: 10px 0px
+ .sticky .navbar-brand
+  padding: 5px 0px
+ .sticky .main_nav .navbar-nav li a
+  padding: 15px
+ .bnr_inr
+  padding: 120px 0px
+  color: #fff
+ .sctbp
+  padding: 70px 0px 75px
+ .headline h2
+  font-size: 35px
+ .headline
+  margin-bottom: 30px
+ .skill_one
+  margin: 20px 0px
+ .skill_one h3
+  font-size: 18px
+ .ser_row ul li
+  padding: 0px 5px
+ .ser_row ul li .ser_one p
+  color: #636363
+  font-size: 14px
+ .port_menu
+  margin: 5px 0px 15px
+ .port_menu ul li
+  padding: 7px 20px
+ .port_one
+  height: 107px
+  margin: 10px 0px
+ .port_one .port_overlay
+  padding: 5px
+  transform: scale(1.2)
+ .port_one .port_overlay h4
+  font-size: 15px
+  padding-top: 15px
+ .port_one .port_overlay a i
+  height: 30px
+  width: 31px
+  line-height: 30px
+  margin: 10px 2px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
