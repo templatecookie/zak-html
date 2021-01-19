@@ -85,11 +85,11 @@ $(function(){
             btt.fadeOut(1000);
         }
     });
-    // $window.on('load', function () {
-    //     $('.preloader').fadeOut('slow', function () {
-    //         $(this).remove();
-    //     });
-    // });
+    $window.on('load', function () {
+        $('.preloader').fadeOut('slow', function () {
+            $(this).remove();
+        });
+    });
     // Contact Form
     var form = $('.contact__form'),
         message = $('.contact__msg'),
