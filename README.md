@@ -1,5 +1,5 @@
-# [lomeyolabs.com](https://lomeyolabs.com)
-FREE UI & HTML Templates for Designer and Developer. Lomeyo Labs is a place where a team of design & developers create beautiful templates.
+# [templatecookie.com](https://templatecookie.com)
+FREE UI & HTML Templates for Designer and Developer. Lomeyo Labs is a place where a team of designers & developers create beautiful templates.
 
 # [One Page Personal Portfolio Template](https://echotemplate.com/product/zak-one-page-personal-portfolio-template)
 
