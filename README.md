@@ -1,11 +1,11 @@
 # [Templatecookie](https://templatecookie.com)
 Templatecookie.com creates quality templates and php scripts. Templatecookie has many free HTML & Figma templates available for professional use. Templatecookie is famous for its premium PHP Scripts available on [Codeanyon Marketplace](https://codecanyon.net/user/templatecookie). Browse [Templatecookie](https://templatecookie.com) today and discover awesome digital products.
 
-# [Minimal - Personal Portfolio HTML Template](https://www.templatecookie.com/products)
+# [ZAK - One Page Personal Portfolio HTML Template](https://www.templatecookie.com/products)
 
-> Minimal is a personal portfolio HTML template especially for UI/UX designer.
+> ZAK - One Page Personal Portfolio HTML Template.
 
-Check the [Live Demo here](https://minimal-personal-portfolio.netlify.app/).
+Check the [Live Demo here](https://zak-one-page.netlify.app/).
 
 ![](screenshot.png)
 
@@ -15,8 +15,6 @@ Check the [Live Demo here](https://minimal-personal-portfolio.netlify.app/).
 
 ## Framework & Technologies
 - bootstrap
-- scss
-- fancy
 - jQuery
 
 ## Credits
